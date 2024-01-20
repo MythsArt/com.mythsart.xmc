@@ -21,7 +21,7 @@ Only works on Windows.
 
 #### Node
 
--   Version 18+
+-   Version 16+
 -   Yarn
 
 ---
@@ -46,20 +46,6 @@ yarn release
 
 ---
 
-### Run Usage
-
-#### Target Version recommend 23.x
-
-0. Make sure your account logged in before cracking!!!
-
-1. Run this application.
-
-2. Input target install root path.
-
-3. Wait for done.
-
-4. Star!!!. XD
-
 ### PKG_CACHE_PATH
 
 Default pkg cache path
@@ -76,3 +62,17 @@ Full path like
 ```
 C:\Users\xxx\.pkg-cache\v3.4\fetched-v16.16.0-win-x64
 ```
+
+### Run Usage
+
+#### Target Version recommend 23.x
+
+0. Make sure your account logged in before cracking!!!
+
+1. Run this application.
+
+2. Input target install root path.
+
+3. Wait for done.
+
+4. Star please~!!! XD
