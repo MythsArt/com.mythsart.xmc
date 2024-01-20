@@ -1,0 +1,33 @@
+{
+    "name": "com.mythsart.xmc",
+    "version": "0.0.1",
+    "repository": "https://github.com/MythsArt/com.mythsart.xmc.git",
+    "author": "kenhuey <kenhuey@mythsart.com>",
+    "license": "MIT",
+    "main": "./dist/main/index.js",
+    "bin": "./dist/main/index.js",
+    "pkg": {
+        "scripts": "./dist/**/*.js",
+        "targets": [
+            "node16-win-x64"
+        ]
+    },
+    "scripts": {
+        "pre-build": "ts-node ./src/build/pre-build.ts",
+        "build": "yarn pre-build && tsc",
+        "dev": "yarn build && node ./dist/main/index.js",
+        "release": "yarn build && pkg . -o ./release/xmc.exe"
+    },
+    "dependencies": {
+        "@electron/asar": "^3.2.8",
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^20.11.5",
+        "fs-extra": "^11.2.0",
+        "log4js": "^6.9.1",
+        "pkg": "^5.8.1",
+        "regedit": "^5.1.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "yarn": "^1.22.21"
+    }
+}
