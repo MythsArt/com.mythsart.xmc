@@ -67,7 +67,7 @@ C:\Users\xxx\.pkg-cache\v3.4\fetched-v16.16.0-win-x64
 
 #### Target Version recommend 23.x
 
-0. Make sure your account logged in before cracking!!!
+0. Make sure your account logged in before crxxking!!!
 
 1. Run this application.
 
